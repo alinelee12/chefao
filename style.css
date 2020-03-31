@@ -193,10 +193,13 @@ hr{
 .btn-success{
   background-color: #689F38;
   border: 2px solid #fff;
-  border-radius: 10px;
+  border-radius: 20px;
   font-weight: bold;
   transition: all 0.2s;
   color:#fff;
+}
+.cadastro{
+  font-size: 1rem;
 }
   /*Ajustes mobile*/
 
