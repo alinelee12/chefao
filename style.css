@@ -12,6 +12,16 @@ body {
 background: rgb(255,255,255);
 background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(120,144,156,1) 39%);
 }
+.navbar{
+  background-color:#17589C;
+
+}
+.navbar-brand{
+  margin-left:50px;
+}
+.logo{
+  width:100px;
+}
 a{
   color:#fff !important;
 }
@@ -162,13 +172,34 @@ hr{
   margin-top:15px;
 }
 /*Páginas internas*/
-.body-int {
-  background-color:#78909C;
+.body-int{
+  background-color: ;
 }
-
 .form-rounded {
   border-radius: 1rem;
   }
+.lead{
+  background-color:#546E7A;
+  font-weight: bold;
+  padding-left: 65px;
+}
+.rounded{
+  margin-bottom:25px;
+}
+.rounded-top {
+  background-color:#17589C !important;
+  font-size: 1.2rem;
+}
+.btn-success{
+  background-color: #689F38;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: all 0.2s;
+  color:#fff;
+}
+  /*Ajustes mobile*/
+
   @media (max-width: 600px) {
     .card-signin {
       margin: 0 !important;
