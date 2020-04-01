@@ -232,6 +232,9 @@ hr{
 .cont{
   margin-top: 80px;
 }
+.habilidades{
+  margin-bottom:25px;
+}
   /*Ajustes mobile*/
 
   @media (max-width: 600px) {
