@@ -226,6 +226,12 @@ hr{
   background-color:#C4C4C4;
   margin-bottom:15px;
 }
+.icone{
+  margin-top: 50px;
+}
+.cont{
+  margin-top: 80px;
+}
   /*Ajustes mobile*/
 
   @media (max-width: 600px) {
@@ -241,5 +247,11 @@ hr{
     }
     .lead{
       font-size:10px;
+    }
+    .icone{
+      margin-top: 0;
+    }
+    .cont{
+      margin-top: 0;
     }
   }
