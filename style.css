@@ -201,6 +201,31 @@ hr{
 .cadastro{
   font-size: 1rem;
 }
+.analise{
+  padding-left: 90px;
+}
+.progress-bar{
+  
+  border-color: #689F38 !important;
+  border-width: 22px !important;
+}
+.progress-value{
+  background-color:#fff!important;
+  color:#689F38!important;
+}
+.analise-conteudo{
+  color:#17589C;
+}
+.titulo-conteudo{
+  margin-top:50px;
+  color:#17589C;
+  font-size:1.8rem;
+
+}
+.form-rounded{
+  background-color:#C4C4C4;
+  margin-bottom:15px;
+}
   /*Ajustes mobile*/
 
   @media (max-width: 600px) {
@@ -210,5 +235,11 @@ hr{
     }
     .img{
       display:none;
+    }
+    .analise{
+      padding-left:10px;
+    }
+    .lead{
+      font-size:10px;
     }
   }
